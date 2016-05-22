@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        {% load staticfiles %}
+        <meta charset="utf-8" >
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="{% static "css/bootstrap.min.css"%}">
+        <script src="{% static "Javascript/jquery-2.2.4/jquery-2.2.4.min.js"%}"></script>
+        <script src="{% static "Javascript/bootstrap-3.3.6/bootstrap.min.js"%}"></script>
+    </head>
+    <body>
+        <h1>
+            Hello World
+        </h1>
+        <table class="table table-striped">
+            <tr>
+                <th>first name</th>
+                <th>last name</th>
+                <th>weight</th>
+            </tr>
+            {% for obj in user %}
+            <tr>
+                <td>{{ obj.first_name }}</td>
+                <td>{{ obj.last_name }}</td>
+                <td>{{ obj.weight }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </body>
+</html>
