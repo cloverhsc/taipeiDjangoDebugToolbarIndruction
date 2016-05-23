@@ -122,7 +122,7 @@ DEBUG_TOOLBAR_PANELS = [
 ]
 
 CONFIG_DEFAULTS = {
-        'RENDER_PANELS': True,
-        'SHOW_COLLAPSED': True,
-        'SQL_WARNING_THRESHOLD': 100,
-    }
+    'RENDER_PANELS': True,
+    'SHOW_COLLAPSED': True,
+    'SQL_WARNING_THRESHOLD': 100,
+}

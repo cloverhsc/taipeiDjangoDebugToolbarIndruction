@@ -27,6 +27,7 @@ from django.conf.urls import patterns
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
     url(r'^$', index),
+    url(r'^', include('debug_toolbar_htmltidy.urls')),
 ]
 
 if settings.DEBUG:
