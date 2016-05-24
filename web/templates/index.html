@@ -12,13 +12,18 @@
         <h1>
             Hello World
         </h1>
+        <form action='/' method="POST">{% csrf_token %}
+            <label for='weight'>輸入數字，列出低於這個體重人員：</label>
+            <input type='text' id='weight' name='weight' />
+            <input type='submit' />
+        </form>
         <table class="table table-striped">
             <tr>
                 <th>first name</th>
                 <th>last name</th>
                 <th>weight</th>
             </tr>
-            {% for obj in user %}
+            {% for obj in content %}
             <tr>
                 <td>{{ obj.first_name }}</td>
                 <td>{{ obj.last_name }}</td>
