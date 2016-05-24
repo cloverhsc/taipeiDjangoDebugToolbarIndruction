@@ -1,14 +1,80 @@
+# Pygments is a syntax highlighting package written in Python.
+# http://pygments.org/
+Pygments==2.0.2
+
+# Simple, fast, extensible JSON encoder/decoder for Python
+# http://github.com/simplejson/simplejson
+simplejson==3.3.1
+
+# OAuth 2.0 client library
+# http://github.com/google/oauth2client/
+oauth2client
+
+# A backport of the get_terminal_size function from Python 3.3's shutil.
+# https://github.com/chrippa/backports.shutil_get_terminal_size
 backports.shutil-get-terminal-size==1.0.0
+
+# Better living through Python with decorators
+# https://github.com/micheles/decorator
 decorator==4.0.9
+
+# A high-level Python Web framework that encourages rapid development and clean, pragmatic design.
+# http://www.djangoproject.com/
 Django==1.8.7
+
+# A configurable set of panels that display various debug information about the current request/response.
+# https://github.com/django-debug-toolbar/django-debug-toolbar
 django-debug-toolbar==1.4
+
+# Faker is a Python package that generates fake data for you.
+# http://github.com/joke2k/faker
+fake-factory==0.5.7
+
+# IPv4/IPv6 manipulation library
+# https://github.com/phihag/ipaddress
+ipaddress==1.0.16
+
+# IPython: Productive Interactive Computing
+# http://ipython.org
 ipython==4.2.0
+
+# Vestigial utilities from IPython
+# http://ipython.org
 ipython-genutils==0.1.0
+
+# Object-oriented filesystem paths
+# https://pypi.python.org/pypi/pathlib2/
 pathlib2==2.1.0
+
+# Pexpect allows easy control of interactive console applications.
+# http://pexpect.readthedocs.org/
 pexpect==4.1.0
+
+# Tiny 'shelve'-like database with concurrency support
+# https://github.com/pickleshare/pickleshare
 pickleshare==0.7.2
+
+# Run a subprocess in a pseudo terminal
+# https://github.com/pexpect/ptyprocess
 ptyprocess==0.5.1
+
+# Extensions to the standard Python datetime module
+# https://dateutil.readthedocs.org
+python-dateutil==2.5.3
+
+# Simple generic functions (similar to Python's own len(), pickle.dump(), etc.)
+# http://cheeseshop.python.org/pypi/simplegeneric
 simplegeneric==0.8.1
+
+# Python 2 and 3 compatibility utilities
+# http://pypi.python.org/pypi/six/
 six==1.10.0
+
+# Non-validating SQL parser
+# https://github.com/andialbrecht/sqlparse
 sqlparse==0.1.19
+
+# Traitlets Python config system
+# http://ipython.org
 traitlets==4.2.1
+
